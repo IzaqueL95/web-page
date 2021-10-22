@@ -1,0 +1,143 @@
+.first-image-div{
+    display: block;
+    margin-left: -8px;
+    margin-top: -30px;
+}
+
+.first-image{
+    width: 1925px;
+}
+
+body{
+    
+    background-color: rgb(24, 23, 23);
+}
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+
+a {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.a2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 28px;
+letter-spacing: -0.02em;
+}
+
+
+.header{
+    border-style: groove;
+    border-width: 0.2px;
+    margin-top: 30px;
+    width: 1878px;
+    position: absolute;
+    background: rgba(24, 24, 24, 0.39); /*cor que torna a barra transparente*/
+    height: 50px;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-menu{
+    margin-right: 180px;
+    margin-left: 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 28px;
+    width: 141px;
+    height: 49px;
+    color: white;
+    border-style: solid;
+    border:2px solid rgb(255, 255, 255); 
+    background-color: transparent;
+}
+
+.menuS{
+    display: flex;
+   
+}
+
+.menuS, li {
+     
+    margin-left: 10px;
+}
+
+.menuS li a {
+    
+    display: block;
+    padding: 10px;
+}
+
+.back-hov{
+    background-image: url('/assets/img/Rectangle\ 24.png');
+}
+.back-hov:hover{
+    background-image: url('/assets/img/Rectangle\ 24.png');
+}
+
+.sec-text{
+    display: grid;
+    grid-template-columns: 953px 953px;
+    margin-top: -5px;
+   
+}
+
+.h1-text{
+    margin-top: 80px;
+    margin-left: 120px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 200;
+font-size: 52px;
+letter-spacing: -0.02em;
+}
+.p-text{
+    margin-top: 40px;
+    margin-left: 120px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+.h2-text{
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.a{
+    background-color: blue;
+    
+}
+
+.b{
+    background-color: #dcdcdc;
+}
+
+.font-style{
+    color: #BDBDBD;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+transition: 0.4s;
+}
+.font-style:hover{
+    color:#111111;
+    cursor: pointer;
+}
