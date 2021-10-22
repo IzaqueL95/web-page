@@ -86,9 +86,15 @@ line-height: 28px;
 
 .back-hov{
     background-image: url('/assets/img/Rectangle\ 24.png');
+    
 }
-.back-hov:hover{
-    background-image: url('/assets/img/Rectangle\ 24.png');
+
+.mr-div{
+    background-image: url('/assets/img/image\ 5.png');
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 953px 953px;
 }
 
 .sec-text{
@@ -140,4 +146,21 @@ transition: 0.4s;
 .font-style:hover{
     color:#111111;
     cursor: pointer;
+}
+
+.sec-text{
+    background-color: bisque;
+}
+
+.sec-quadros{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 500px 400px;
+}
+.first-quad{
+
+}
+
+.second-quad{
+    
 }
