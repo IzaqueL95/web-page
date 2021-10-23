@@ -1,5 +1,7 @@
 .first-image-div{
+    background-image: url('/assets/img/Hero.png');
     display: block;
+    height: 100vh;
     margin-left: -8px;
     margin-top: -30px;
 }
@@ -42,7 +44,7 @@ letter-spacing: -0.02em;
     border-style: groove;
     border-width: 0.2px;
     margin-top: 30px;
-    width: 1878px;
+    width: 1861px;
     position: absolute;
     background: rgba(24, 24, 24, 0.39); /*cor que torna a barra transparente*/
     height: 50px;
@@ -91,15 +93,15 @@ line-height: 28px;
 
 .mr-div{
     background-image: url('/assets/img/image\ 5.png');
-    height: 80vh;
-    width: 100vw;
+    height: 83vh;
+    width: 99vw;
     display: grid;
-    grid-template-columns: 953px 953px;
+    grid-template-columns: 1149px 100px;
 }
 
 .sec-text{
     display: grid;
-    grid-template-columns: 953px 953px;
+    grid-template-columns: 953px 950px;
     margin-top: -5px;
    
 }
@@ -148,19 +150,119 @@ transition: 0.4s;
     cursor: pointer;
 }
 
+.button-quad{
+   margin-top: 30px;
+    margin-left: 250px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+width: 170px;
+height: 54px;
+    color: white;
+    border-style: solid;
+    border:2px solid rgb(255, 255, 255); 
+    background-color: transparent;
+
+}
+
+.tex-quad{
+    /* margin-bottom: 300px; */
+    margin-left: 250px;
+
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.h2-quad{
+    margin-top: 130px;
+    margin-left: 250px;
+
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 200;
+font-size: 52px;
+line-height: 63px;
+letter-spacing: -0.02em;
+color: #FFFFFF;;
+}
+
 .sec-text{
-    background-color: bisque;
+  
 }
 
 .sec-quadros{
-    background-color: blue;
+    /* background-color: blue; */
     display: grid;
     grid-template-columns: 500px 400px;
 }
 .first-quad{
-
+    filter: brightness(50%);
+    margin-top: 50px;
+    transition: 0.9s;
+}
+.first-quad:hover{
+    filter: brightness(100%);
 }
 
 .second-quad{
+    margin-top: 130px;
+}
+
+.sec-prod{
+    background-image: url('/assets/img/Group\ 9.png');
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 953px 950px;
+    margin-top: -5px;
+
+}
+
+.img{
+   margin-left: 160px;
+   margin-top: -155px;
+   opacity: 0;
+   transition:  .4s;
+}
+.img:hover{
     
+    opacity: 100;
+}
+
+.img-ret{
+    margin-top: 50px;
+}
+
+.h2-card{
+    margin-top: 100px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 200;
+font-size: 52px;
+line-height: 63px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.p-card{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
 }
