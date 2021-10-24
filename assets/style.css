@@ -135,7 +135,12 @@ a {
     line-height: 28px;
     letter-spacing: -0.02em;
 }
-
+.mr{
+    font-family: Montserrat;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 117px;
+}
 .logo {
     background-image: url('/assets/img/Logo-m.png');
     margin-top: 10px;
@@ -364,7 +369,6 @@ li {
     border-style: solid;
     border: 2px solid rgb(255, 255, 255);
     background-color: transparent;
-
 }
 
 .tex-quad {
@@ -390,7 +394,6 @@ li {
     color: #FFFFFF;
 }
 
-
 .sec-quadros {
     display: grid;
     grid-template-columns: 500px 400px;
@@ -411,51 +414,7 @@ li {
 }
 /*FIM DAS CLASSES QUE POSSUEM O SOBRE NÓS E OS QUADROS*/
 
-.h1-text {
-    margin-top: 80px;
-    margin-left: 120px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 52px;
-    letter-spacing: -0.02em;
-}
-
-.p-text {
-    margin-top: 40px;
-    margin-left: 120px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-.h2-text {
-    margin-top: 70px;
-    margin-left: 120px;
-}
-
-
-.b {
-    background-color: #dcdcdc;
-}
-
-.font-style {
-    color: #BDBDBD;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    transition: 0.4s;
-}
-
-.font-style:hover {
-    color: #111111;
-    cursor: pointer;
-}
-
-
+/*INICIO DAS CLASSES QUE POSSUEM CARDS DO CARDAPIO*/
 .sec-prod {
     background-image: url('/assets/img/Group\ 9.png');
     height: 115vh;
@@ -464,21 +423,36 @@ li {
     margin-top: -5px;
 }
 
-.img {
-    width: 370px;
-    margin-left: 160px;
-    margin-top: -155px;
-    opacity: 0;
-    transition: all 0.7s ease-in-out;
-}
-
-.img:hover {
-    width: 450;
-    opacity: 100;
-}
-
 .img-ret {
     margin-top: 50px;
+}
+
+.img-taca{
+    position: absolute;
+    margin-left: -3700px;
+    margin-top: 85px;
+    transition: .8s;
+}
+
+.img-taca-show{
+    position: absolute;
+    margin-left: -370px;
+    margin-top: 85px;
+    transition: .4s;
+}
+
+.img-prato{
+    position: absolute;
+    margin-left: -3700px;
+    margin-top: 85px;
+    transition: .8s;
+}
+
+.img-prato-show{
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 320px;
+    transition: .4s;
 }
 
 .h2-card {
@@ -527,6 +501,67 @@ li {
     background-color: transparent;
 }
 
+/*FIM DAS CLASSES QUE POSSUEM CARDS DO CARDAPIO*/
+
+.h1-text {
+    margin-top: 80px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 52px;
+    letter-spacing: -0.02em;
+}
+
+.p-text {
+    margin-top: 40px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.h2-text {
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+
+.b {
+    background-color: #dcdcdc;
+}
+
+.font-style {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.4s;
+}
+
+.font-style:hover {
+    color: #111111;
+    cursor: pointer;
+}
+
+
+
+.img {
+    width: 370px;
+    margin-left: 160px;
+    margin-top: -155px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+}
+
+.img:hover {
+    width: 450;
+    opacity: 100;
+}
+
 .test {
     margin-top: -13px;
 }
@@ -561,19 +596,65 @@ li {
 }
 
 .insta-ve{
-    /* position: absolute; */
     margin-left: -16px;
     margin-right: 3px;
     margin-top: -68px;
-    /* margin-top: 12px;  */
     width: 67px;
     opacity: 0;
     transition: .4s;
 }
 .insta-ve:hover{
-    /* position: absolute; */
     width: 67px;
     opacity: 100;
+}
+
+.cop {
+    margin-left: 200px;
+    margin-right: 638px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.final-foot {
+    display: flex;
+    margin-bottom: 15px
+}
+
+.img-vet-show{
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -140px;
+    transition: .4s;
+}
+
+
+
+
+
+.material-icons{
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    margin-top: 600px;
+    font-size: 50px;
+}
+
+/*INICIO DAS CLASSES DO FOOTER*/
+.map-info {
+    display: grid;
+    grid-template-columns: 953px 950px;
+    height: 110vh;
+    background-color: #222;
+}
+
+.mapa {
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 .flex {
@@ -601,6 +682,14 @@ li {
     align-items: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+}
+
+.info-foot {
+    display: grid;
+    grid-template-columns: 700px 570px 633px;
+    bottom: 0;
+    height: 340px;
+    background: #181818;
 }
 
 .form {
@@ -669,13 +758,7 @@ textarea::placeholder {
     background-color: white;
 }
 
-.info-foot {
-    display: grid;
-    grid-template-columns: 700px 570px 633px;
-    bottom: 0;
-    height: 340px;
-    background: #181818;
-}
+
 
 .tex-foot {
     margin-left: 220px;
@@ -733,78 +816,4 @@ hr {
     width: 1450px;
     opacity: 40%;
 }
-
-.cop {
-    margin-left: 200px;
-    margin-right: 638px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-}
-
-.final-foot {
-    display: flex;
-    margin-bottom: 15px
-}
-
-.img-vet-show{
-    position: absolute;
-    margin-left: -600px;
-    margin-top: -140px;
-    transition: .4s;
-}
-
-.img-taca{
-    position: absolute;
-    margin-left: -3700px;
-    margin-top: 85px;
-    transition: .8s;
-}
-
-.img-taca-show{
-    position: absolute;
-    margin-left: -370px;
-    margin-top: 85px;
-    transition: .4s;
-}
-
-.img-prato{
-    position: absolute;
-    margin-left: -3700px;
-    margin-top: 85px;
-    transition: .8s;
-}
-
-.img-prato-show{
-    position: absolute;
-    margin-left: -320px;
-    margin-top: 320px;
-    transition: .4s;
-}
-
-.material-icons{
-    cursor: pointer;
-    color: white;
-    position: absolute;
-    margin-top: 600px;
-    font-size: 50px;
-}
-
-/*INICIO DAS CLASSES DO FOOTER*/
-.map-info {
-    display: grid;
-    grid-template-columns: 953px 950px;
-    height: 110vh;
-    background-color: #222;
-}
-
-.mapa {
-    margin-left: 250px;
-    margin-top: 50px;
-}
-
 /*FIM DAS CLASSES DO FOOTER*/

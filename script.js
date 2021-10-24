@@ -14,6 +14,7 @@ const saç = document.querySelector('#sal')
 const sob = document.querySelector('#sob')
 const drin = document.querySelector('#drin')
 const drinAut = document.querySelector('#drinAut')
+const mra = document.querySelector('#mra')
 
 const dob1 = document.querySelector('#dob-1')
 const dob2 = document.querySelector('#dob-2')
@@ -36,7 +37,6 @@ const but = document.querySelector('#but')
 const iconS = document.querySelector('#iconS')
 
 window.onload = carregou()
-
 function carregou(){
     setTimeout(function(){ 
         gast.classList.remove("opaci")
@@ -46,6 +46,7 @@ function carregou(){
         iconS.classList.remove("opaci")
     }, 800);
 }
+
 /*INICIO DA FUNÇÃO PARA MOSTRAR A TAÇA E O PRATO AO ROLAR PARA BAIXO*/
 document.addEventListener("scroll", function() {
   var posicaoy = window.pageYOffset;
@@ -178,6 +179,7 @@ com.addEventListener("click", changeMods =>{
         bar.innerHTML = ''
         mural.innerHTML = ''
         com.innerHTML = ''
+        mra.innerHTML = 'CONHEÇA <b>MAIS</b>'
         changeReverse.classList.add("opacChange")
 })
 
@@ -192,6 +194,7 @@ changeReverse.addEventListener("click", changeMods =>{
     mural.innerHTML = 'MURAL INSTAGRAMÁVEL'
     changeReverse.classList.remove("opacChange")
     com.innerHTML = 'Clique aqui para saber mais'
+    mra.innerHTML = ''
 })
 /*FIM DAS FUNÇÕES PARA TROCAR ELEMENTOS AO CLICAR EM 'CLIQUE AQUI PARA SABER MAIS' */
 
