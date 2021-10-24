@@ -14,6 +14,11 @@ html{
     flex-direction: column;
 }
 
+.opaci{
+    opacity: 0;
+    transition: .8s;
+}
+
 .h1-a {
     margin-top: 7px;
     font-family: Montserrat;
@@ -23,7 +28,28 @@ html{
     letter-spacing: -0.02em;
     color: #FFFFFF;
 }
-
+.more{
+    cursor: pointer;
+    position: absolute;
+    transform: rotate(+90deg);
+    margin-left: 700px;
+    margin-top: 200px;
+    
+}
+.vazia{
+    opacity: 0;
+    cursor: auto;
+}
+.opac{
+    opacity: 0;
+    position: absolute;
+}
+.opacChange{
+    cursor: pointer;
+    opacity: 100;
+    margin-top: -40px;
+    color: black;
+}
 .img-f {
     position: absolute;
     width: 370px;
@@ -71,7 +97,8 @@ html{
     font-size: 82px;
     line-height: 100px;
     letter-spacing: -0.02em;
-    color: #FFFFFF
+    color: #FFFFFF;
+    transition: .5;
 }
 
 .first-image {
@@ -138,6 +165,8 @@ a {
     width: 450;
     opacity: 100;
 }
+
+/* INICIO CLASSES QUE MANIPULAM A DOBRA DOS CARDS*/
 .corte{
     position: absolute;
     margin-top: 196px;
@@ -219,6 +248,9 @@ a {
     margin-left: 672px;
     opacity: 100;
 }
+/* FIM CLASSES QUE MANIPULAM A DOBRA DOS CARDS*/
+
+/*INICIO DA CLASSE HEADER E SEUS COMPONENTES*/
 .header {
     margin-left: -1px;
     border-style: groove;
@@ -262,7 +294,9 @@ li {
     display: block;
     padding: 10px;
 }
+/*FIM DA CLASSE HEADER E SEUS COMPONENTES*/
 
+/*INICIO DAS CLASSES QUE APLICAM O FUNDO AO PASSAR O MOUSE NAS CATEGORIAS ÁREA EXT, MEZANINO, BAR, MURAL INSTA.. MÚSICA AO..*/
 .back-hov {
     background-image: url('/assets/img/Rectangle\ 24.png');
     transition: .4s;
@@ -292,7 +326,15 @@ li {
     background-image: url('/assets/img/music.PNG');
     transition: .4s;
 }
+.back-hov-more {
+    background-image: url('/assets/img/Capturar2.PNG');
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+/*FIM DAS CLASSES QUE APLICAM O FUNDO AO PASSAR O MOUSE NAS CATEGORIAS ÁREA EXT, MEZANINO, BAR, MURAL INSTA.. MÚSICA AO..*/
 
+
+/*INICIO DAS CLASSES QUE POSSUEM O SOBRE NÓS E OS QUADROS*/
 .mr-div {
     background-image: url('/assets/img/image\ 5.png');
     height: 83vh;
@@ -306,50 +348,6 @@ li {
     grid-template-columns: 953px 950px;
     margin-top: -5px;
 
-}
-
-.h1-text {
-    margin-top: 80px;
-    margin-left: 120px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 52px;
-    letter-spacing: -0.02em;
-}
-
-.p-text {
-    margin-top: 40px;
-    margin-left: 120px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-.h2-text {
-    margin-top: 70px;
-    margin-left: 120px;
-}
-
-
-.b {
-    background-color: #dcdcdc;
-}
-
-.font-style {
-    color: #BDBDBD;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    transition: 0.4s;
-}
-
-.font-style:hover {
-    color: #111111;
-    cursor: pointer;
 }
 
 .button-quad {
@@ -411,6 +409,52 @@ li {
 .second-quad {
     margin-top: 130px;
 }
+/*FIM DAS CLASSES QUE POSSUEM O SOBRE NÓS E OS QUADROS*/
+
+.h1-text {
+    margin-top: 80px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 52px;
+    letter-spacing: -0.02em;
+}
+
+.p-text {
+    margin-top: 40px;
+    margin-left: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.h2-text {
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+
+.b {
+    background-color: #dcdcdc;
+}
+
+.font-style {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.4s;
+}
+
+.font-style:hover {
+    color: #111111;
+    cursor: pointer;
+}
+
 
 .sec-prod {
     background-image: url('/assets/img/Group\ 9.png');
@@ -500,17 +544,7 @@ li {
     opacity: 100;
 }
 
-.map-info {
-    display: grid;
-    grid-template-columns: 953px 950px;
-    height: 110vh;
-    background-color: #222;
-}
 
-.mapa {
-    margin-left: 250px;
-    margin-top: 50px;
-}
 
 .insta-vet{
     position: absolute;
@@ -759,3 +793,18 @@ hr {
     margin-top: 600px;
     font-size: 50px;
 }
+
+/*INICIO DAS CLASSES DO FOOTER*/
+.map-info {
+    display: grid;
+    grid-template-columns: 953px 950px;
+    height: 110vh;
+    background-color: #222;
+}
+
+.mapa {
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+/*FIM DAS CLASSES DO FOOTER*/
