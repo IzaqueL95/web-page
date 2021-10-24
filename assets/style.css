@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .first-image-div {
     background-image: url('/assets/img/Hero-dk.png');
     max-width: 100%;
@@ -75,6 +79,7 @@
 }
 
 body {
+    
     background-color: rgb(24, 23, 23);
 }
 
@@ -133,11 +138,92 @@ a {
     width: 450;
     opacity: 100;
 }
+.corte{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 152px;
+    opacity: 0;
+    transition: .5s;
+}
+.corte-show{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 152px;
+    opacity: 100;
+}
+.corte2{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 413px;
+    opacity: 0;
+    transition: .5s;
+}
+.corte2-show{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 413px;
+    opacity: 100;
+}
 
+.corte3{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 672px;
+    opacity: 0;
+    transition: .5s;
+}
+.corte3-show{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 672px;
+    opacity: 100;
+}
+.corte4{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 152px;
+    opacity: 0;
+    transition: .5s;
+}
+.corte4-show{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 152px;
+    opacity: 100;
+}
+
+.corte5{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 413px;
+    opacity: 0;
+    transition: .5s;
+}
+.corte5-show{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 413px;
+    opacity: 100;
+}
+
+.corte6{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 672px;
+    opacity: 0;
+    transition: .5s;
+}
+.corte6-show{
+    position: absolute;
+    margin-top: 526px;
+    margin-left: 672px;
+    opacity: 100;
+}
 .header {
+    margin-left: -1px;
     border-style: groove;
     border-width: 0.2px;
-    width: 1861px;
+    width: 1862px;
     position: absolute;
     background: rgba(24, 24, 24, 0.39);
     height: 50px;
@@ -426,6 +512,36 @@ li {
     margin-top: 50px;
 }
 
+.insta-vet{
+    position: absolute;
+    margin-left: -19px;
+    margin-top: 12px;
+    width: 67px;
+    opacity: 0;
+    transition: .4s;
+}
+.insta-vet:hover{
+    position: absolute;
+    width: 67px;
+    opacity: 100;
+}
+
+.insta-ve{
+    /* position: absolute; */
+    margin-left: -16px;
+    margin-right: 3px;
+    margin-top: -68px;
+    /* margin-top: 12px;  */
+    width: 67px;
+    opacity: 0;
+    transition: .4s;
+}
+.insta-ve:hover{
+    /* position: absolute; */
+    width: 67px;
+    opacity: 100;
+}
+
 .flex {
     margin-left: 250px;
     margin-top: 50px;
@@ -512,7 +628,11 @@ textarea::placeholder {
     border-style: solid;
     border: 2px solid rgb(255, 255, 255);
     background-color: transparent;
-
+    transition: .4s;
+}
+.button-envio:hover{
+    color: black;
+    background-color: white;
 }
 
 .info-foot {
@@ -595,4 +715,47 @@ hr {
 .final-foot {
     display: flex;
     margin-bottom: 15px
+}
+
+.img-vet-show{
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -140px;
+    transition: .4s;
+}
+
+.img-taca{
+    position: absolute;
+    margin-left: -3700px;
+    margin-top: 85px;
+    transition: .8s;
+}
+
+.img-taca-show{
+    position: absolute;
+    margin-left: -370px;
+    margin-top: 85px;
+    transition: .4s;
+}
+
+.img-prato{
+    position: absolute;
+    margin-left: -3700px;
+    margin-top: 85px;
+    transition: .8s;
+}
+
+.img-prato-show{
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 320px;
+    transition: .4s;
+}
+
+.material-icons{
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    margin-top: 600px;
+    font-size: 50px;
 }
