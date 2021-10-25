@@ -67,6 +67,11 @@ html{
     opacity: 100;
 }
 
+footer{
+    
+    width: 1903px;
+}
+
 .button-first {
     margin-top: 80px;
     font-family: Montserrat;
@@ -650,6 +655,7 @@ li {
 }
 
 /*INICIO DAS CLASSES DO FOOTER*/
+
 .map-info {
     display: grid;
     grid-template-columns: 953px 950px;
@@ -695,6 +701,7 @@ li {
     bottom: 0;
     height: 340px;
     background: #181818;
+    
 }
 
 .form {
