@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
 html{
     scroll-behavior: smooth;
+    max-width: 100%;
 }
 
 .first-image-div {
@@ -344,6 +345,7 @@ li {
 /*INICIO DAS CLASSES QUE POSSUEM O SOBRE NÓS E OS QUADROS*/
 .mr-div {
     background-image: url('/assets/img/image\ 5.png');
+    background-repeat: no-repeat;
     height: 83vh;
     width: 99vw;
     display: grid;
@@ -419,6 +421,7 @@ li {
 /*INICIO DAS CLASSES QUE POSSUEM CARDS DO CARDAPIO*/
 .sec-prod {
     background-image: url('/assets/img/Group\ 9.png');
+    background-repeat: no-repeat;
     height: 115vh;
     display: grid;
     grid-template-columns: 953px 950px;
