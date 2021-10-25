@@ -7,7 +7,7 @@ html{
 
 .first-image-div {
     background-image: url('/assets/img/Hero-dk.png');
-    max-width: 100%;
+    width: 1903px;
     background-repeat: no-repeat;
     display: block;
     height: 97vh;
